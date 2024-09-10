@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  
+}
+body,html{
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+}
+body{
+  background-color: #111014;
+}
+.wcard{
+  transition: all .3s ease-in-out;
+}
+.wcard:hover{
+  background-color: #088F8F;
+  transition: all .2s ease-in-out;
+}
