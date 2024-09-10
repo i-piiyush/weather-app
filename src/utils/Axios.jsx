@@ -6,7 +6,7 @@ import { userContext } from './Context'
 
 const Axios = () => {
     const [userCity,weatherDetails,nextWeather] = useContext(userContext)
-    const apiKey = 'b14a194321c7eeaf50575d0e16ab6a63'
+    const apiKey = 'yourapikey'
     const [Lat, setLat] = useState(undefined)
     const [Lon, setLon] = useState(undefined)
     
